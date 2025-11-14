@@ -63,7 +63,7 @@ This initial phase focuses on ingesting the raw data and conducting preliminary 
 * **Step 2.1: Visualization and Statistics of the Data**
     Exploring core data statistics and filtering any immediately irrelevant data.
     <div align="center">
-        <img src="assets/1_Access_Visualize_Dataset.png" alt="Step 2.1 Visualization and Statistics" width="50%">
+        <img src="assets/1_Access_Visualize_Dataset.png" alt="Step 2.1 Visualization and Statistics" width="70%">
     </div>
     *The `Data Explorer` node is used for visualizing the dataset, while the `Statistics View` explores summary statistics. A `Row Filter` is employed to remove statistically irrelevant entries.*
 
@@ -92,7 +92,7 @@ This phase deepens understanding of the data's characteristics and prepares comp
 * **Step 3.1: EDA Workflow Segment**
     Creating insightful visualizations and leveraging a Correlation Matrix to uncover relationships between variables. The output is geared towards an interactive dashboard experience.
     <div align="center">
-        <img src="assets/4_0_EDA_Main.png" alt="Step 3.1 EDA Main" width="40%">
+        <img src="assets/4_0_EDA_Main.png" alt="Step 3.1 EDA Main" width="60%">
     </div>
     *This main EDA component orchestrates various visualizations and utilizes the `Correlation Matrix` node to map inter-variable relationships, culminating in an interactive dashboard.*
 
