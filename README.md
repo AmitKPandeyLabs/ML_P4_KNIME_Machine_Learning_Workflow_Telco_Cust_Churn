@@ -63,7 +63,7 @@ This initial phase focuses on ingesting the raw data and conducting preliminary 
 * **Step 2.1: Visualization and Statistics of the Data**
     Exploring core data statistics and filtering any immediately irrelevant data.
     <div align="center">
-        <img src="assets/1_Access_Visualize_Dataset.png" alt="Step 2.1 Visualization and Statistics" width="70%">
+        <img src="assets/1_Access_Visualize_Dataset.png" alt="Step 2.1 Visualization and Statistics" width="50%">
     </div>
     *The `Data Explorer` node is used for visualizing the dataset, while the `Statistics View` explores summary statistics. A `Row Filter` is employed to remove statistically irrelevant entries.*
 
@@ -74,14 +74,14 @@ This crucial stage ensures data quality and transforms features into formats sui
 * **Step 2.2: Clean the Data**
     Filtering unwanted columns and handling missing values effectively.
     <div align="center">
-        <img src="assets/2_Clean_Data.png" alt="Step 2.2 Clean Data" width="70%">
+        <img src="assets/2_Clean_Data.png" alt="Step 2.2 Clean Data" width="40%">
     </div>
     *The `Column Filter` node removes unnecessary columns. Missing values are then addressed using the `Missing Value` node (e.g., mean imputation for numericals), followed by a `Missing Value Column Filter` to remove columns with excessive missing data (e.g., >5%).*
 
 * **Step 2.3: Transform the Data**
     Converting raw features into a numerical and normalized format for model consumption.
     <div align="center">
-        <img src="assets/3_Transform_Data.png" alt="Step 2.3 Transform Data" width="70%">
+        <img src="assets/3_Transform_Data.png" alt="Step 2.3 Transform Data" width="50%">
     </div>
     *Categorical 'Yes/No' features are transformed to 0/1 numerical values via `Category to Number` (Label Encoding). Other nominal features are converted using `One to Many` (One-Hot Encoding). A new feature, 'Tenure to Total Charges Ratio', is engineered using a `Math Formula` node. Finally, numerical columns are scaled using the `Normalizer` node (z-score normalization) to prevent bias and improve model performance.*
 
@@ -92,21 +92,21 @@ This phase deepens understanding of the data's characteristics and prepares comp
 * **Step 3.1: EDA Workflow Segment**
     Creating insightful visualizations and leveraging a Correlation Matrix to uncover relationships between variables. The output is geared towards an interactive dashboard experience.
     <div align="center">
-        <img src="assets/4_0_EDA_Main.png" alt="Step 3.1 EDA Main" width="70%">
+        <img src="assets/4_0_EDA_Main.png" alt="Step 3.1 EDA Main" width="40%">
     </div>
     *This main EDA component orchestrates various visualizations and utilizes the `Correlation Matrix` node to map inter-variable relationships, culminating in an interactive dashboard.*
 
     *Further components reveal the detailed inner workings for dynamic dashboards:*
     <div align="center">
-        <img src="assets/4_1_EDA_Module_Inside.png" alt="Data Processing Component Inside EDA" width="70%">
+        <img src="assets/4_1_EDA_Module_Inside.png" alt="Data Processing Component Inside EDA" width="50%">
     </div>
     *A view into the data processing component within EDA, preparing data for visual outputs.*
     <div align="center">
-        <img src="assets/4_2_EDA_Module_Inside_Data_Processing.png" alt="Grouped Data Processing for Visuals" width="70%">
+        <img src="assets/4_2_EDA_Module_Inside_Data_Processing.png" alt="Grouped Data Processing for Visuals" width="60%">
     </div>
     *Detailed grouping and pivoting operations used to structure data for comprehensive visualizations.*
     <div align="center">
-        <img src="assets/4_3_EDA_Module_Inside_Visuals3.png" alt="Interactive Bar Charts Output" width="70%">
+        <img src="assets/4_3_EDA_Module_Inside_Visuals3.png" alt="Interactive Bar Charts Output" width="60%">
     </div>
     *Examples of interactive bar charts and other visual outputs generated from the processed data, enhancing data exploration.*
 
@@ -117,7 +117,7 @@ The core predictive analysis involves training and rigorously evaluating multipl
 * **Step 4.1: Model Training, Prediction, and Evaluation**
     The workflow partitions the dataset into training (70%) and testing sets, strategically addressing class imbalance, and then trains and evaluates a suite of classification models.
     <div align="center">
-        <img src="assets/5_Machine_Learning_Models_Training_Prediction_Eval.png" alt="Model Training and Evaluation" width="70%">
+        <img src="assets/5_Machine_Learning_Models_Training_Prediction_Eval.png" alt="Model Training and Evaluation" width="60%">
     </div>
     *This central workflow segment orchestrates the entire ML pipeline, from data preparation to final model comparison.*
 
