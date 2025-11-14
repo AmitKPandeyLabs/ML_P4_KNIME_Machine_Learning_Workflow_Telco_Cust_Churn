@@ -69,7 +69,7 @@ This crucial stage focuses on ensuring data quality and preparing it for modelin
 
 * **Step 2.3: Transform the Data**
     Converting categorical features into numerical formats suitable for machine learning algorithms and feature engineering.
-    ![Step 2.3 Transform Data](assets/3_Transform_Datapng)
+    ![Step 2.3 Transform Data](assets/3_Transform_Data.png)
     *Categorical 'Yes/No' columns are converted to 0/1 numerical using `Category to Number` (Label Encoding). Other nominal features are converted using `One to Many` (One-Hot Encoding). A new feature, 'Tenure to Total Charges Ratio', is added using `Math Formula`. Finally, numerical columns are scaled using `Normalizer` (z-score normalization) to avoid bias.*
 
 ### 3. Exploratory Data Analysis (EDA) & Visualization
