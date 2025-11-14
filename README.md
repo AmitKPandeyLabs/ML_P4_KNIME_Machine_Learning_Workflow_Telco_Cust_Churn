@@ -50,12 +50,12 @@ This initial phase involves reading the raw data and performing preliminary chec
 
 * **Step 1.1: Access the Data from File(s)**
     Receiving the data from the source as a CSV file containing database tables and building the workflow by accessing the data source file.
-    ![Step 1.1 Access Data](assets/Image 2.png)
+    ![Step 1.1 Access Data](assets/1_Access_Visualize_Dataset.png)
     *Reads the `Telco_Customer_Churn.xlsx` file using the CSV Reader node.*
 
 * **Step 2.1: Visualization and Statistics of the Data**
     Exploring data statistics and filtering irrelevant data accordingly.
-    ![Step 2.1 Visualization and Statistics](assets/Image 2.png)
+    ![Step 2.1 Visualization and Statistics](assets/1_Access_Visualize_Dataset.png)
     *Visualizes the dataset using the Data Explorer and explores summary statistics using the Statistics View. Irrelevant data is filtered using a Row Filter.*
 
 ### 2. Data Cleaning & Preprocessing
@@ -64,12 +64,12 @@ This crucial stage focuses on ensuring data quality and preparing it for modelin
 
 * **Step 2.2: Clean the Data**
     Filtering unwanted columns and handling missing values.
-    ![Step 2.2 Clean Data](assets/Image 3.png)
+    ![Step 2.2 Clean Data](assets/2_Clean_Data.png)
     *Unwanted columns are filtered using the `Column Filter`. Missing values are explored and replaced with mean values in numerical columns using the `Missing Value` node, and columns with more than 5% missing values are removed.*
 
 * **Step 2.3: Transform the Data**
     Converting categorical features into numerical formats suitable for machine learning algorithms and feature engineering.
-    ![Step 2.3 Transform Data](assets/Image 4.png)
+    ![Step 2.3 Transform Data](assets/3_Transform_Datapng)
     *Categorical 'Yes/No' columns are converted to 0/1 numerical using `Category to Number` (Label Encoding). Other nominal features are converted using `One to Many` (One-Hot Encoding). A new feature, 'Tenure to Total Charges Ratio', is added using `Math Formula`. Finally, numerical columns are scaled using `Normalizer` (z-score normalization) to avoid bias.*
 
 ### 3. Exploratory Data Analysis (EDA) & Visualization
@@ -78,13 +78,13 @@ Gaining deeper insights into the data and preparing interactive components.
 
 * **Step 3.1: EDA**
     Creating different visualizations and using a Correlation Matrix to uncover relationships between variables.
-    ![Step 3.1 EDA](assets/Image 5.png)
+    ![Step 3.1 EDA](assets/4_0_EDA_Main.png)
     *Visualizations are created using various features, leading to the creation of an interactive dashboard. The Correlation Matrix node is used to understand variable relationships.*
 
     *Further components for interactive dashboards include detailed data processing and visual outputs:*
-    ![Data Processing Component](assets/Image 6.png)
-    ![Grouped Data Processing Component](assets/Image 7.png)
-    ![Interactive Bar Charts](assets/Image 8.png)
+    ![Data Processing Component](assets/4_1_EDA_Module_Inside.png)
+    ![Grouped Data Processing Component](assets/4_2_EDA_Module_Inside_Data_Processing.png)
+    ![Interactive Bar Charts](assets/4_3_EDA_Module_Inside_Visuals3.png)
 
 ### 4. Machine Learning Model Development & Evaluation
 
@@ -92,7 +92,7 @@ This is the core of the predictive analysis, involving multiple model training a
 
 * **Step 4.1: Model Training and Selection**
     The workflow partitions the dataset into training (70%) and testing sets, addressing class imbalance using SMOTE. It then trains and evaluates multiple classification models.
-    ![Model Training and Evaluation](assets/Image 1.png)
+    ![Model Training and Evaluation](assets/5_Machine_Learning_Models_Training_Prediction_Eval.png)
 
     * **Class Imbalance Handling:** SMOTE (Synthetic Minority Oversampling Technique) is applied to the training data to avoid bias towards the majority class.
     * **Model Selection:**
