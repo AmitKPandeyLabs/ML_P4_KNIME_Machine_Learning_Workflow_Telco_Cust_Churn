@@ -74,7 +74,7 @@ This crucial stage ensures data quality and transforms features into formats sui
 * **Step 2.2: Clean the Data**
     Filtering unwanted columns and handling missing values effectively.
     <div align="center">
-        <img src="assets/2_Clean_Data.png" alt="Step 2.2 Clean Data" width="40%">
+        <img src="assets/2_Clean_Data.png" alt="Step 2.2 Clean Data" width="50%">
     </div>
     *The `Column Filter` node removes unnecessary columns. Missing values are then addressed using the `Missing Value` node (e.g., mean imputation for numericals), followed by a `Missing Value Column Filter` to remove columns with excessive missing data (e.g., >5%).*
 
@@ -98,7 +98,7 @@ This phase deepens understanding of the data's characteristics and prepares comp
 
     *Further components reveal the detailed inner workings for dynamic dashboards:*
     <div align="center">
-        <img src="assets/4_1_EDA_Module_Inside.png" alt="Data Processing Component Inside EDA" width="50%">
+        <img src="assets/4_1_EDA_Module_Inside.png" alt="Data Processing Component Inside EDA" width="60%">
     </div>
     *A view into the data processing component within EDA, preparing data for visual outputs.*
     <div align="center">
