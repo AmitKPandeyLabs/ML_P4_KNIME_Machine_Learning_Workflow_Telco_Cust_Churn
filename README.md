@@ -196,10 +196,10 @@ To explore, understand, and run this project, you will need the **KNIME Analytic
 
 ## 📧 Author
 
-**[Your Name]** - Data Scientist | Machine Learning Engineer
-* [Your LinkedIn Profile Link]
-* [Your Portfolio Website Link (if different from this GitHub repo)]
-* [Your GitHub Profile Link]
+**[Amit K Pandey]**
+* [https://linkedin.com/in/2023-amit-k-pandey]
+* [https://amitkpandey.netlify.app]
+* [https://github.com/AmitKPandeyLabs/]
 
 ---
 
