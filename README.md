@@ -194,15 +194,6 @@ To explore, understand, and run this project, you will need the **KNIME Analytic
 
 ---
 
-## 📧 Author
-
-**[Amit K Pandey]**
-* [https://linkedin.com/in/2023-amit-k-pandey]
-* [https://amitkpandey.netlify.app]
-* [https://github.com/AmitKPandeyLabs/]
-
----
-
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
