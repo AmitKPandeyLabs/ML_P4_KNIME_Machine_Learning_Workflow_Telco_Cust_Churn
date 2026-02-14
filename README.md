@@ -25,7 +25,7 @@ This project focuses on building an interpretable, robust, and easily maintainab
 
 ---
 
-## ✨ Key Features & Deliverables
+##  Key Features & Deliverables
 
 * **Visual ML Workflow:** An intuitive, end-to-end machine learning pipeline for churn prediction, visually designed in KNIME.
 * **Comprehensive Data Engineering:** From raw data access and initial exploration to meticulous cleaning and sophisticated feature engineering.
@@ -35,7 +35,7 @@ This project focuses on building an interpretable, robust, and easily maintainab
 
 ---
 
-## 📊 Data Source
+##  Data Source
 
 The dataset utilized for this project is `Telco_Customer_Churn.xlsx`. It comprises various customer attributes from a telecommunications company, including:
 
@@ -45,7 +45,7 @@ The dataset utilized for this project is `Telco_Customer_Churn.xlsx`. It compris
 
 ---
 
-## 🛠️ Methodology: KNIME Workflow Steps
+##  Methodology: KNIME Workflow Steps
 
 The entire project workflow is meticulously crafted within the KNIME Analytics Platform, following a structured and modular approach to ensure clarity and reproducibility.
 
