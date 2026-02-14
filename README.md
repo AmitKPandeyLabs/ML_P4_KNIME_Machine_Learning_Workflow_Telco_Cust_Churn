@@ -155,7 +155,7 @@ After rigorous training and comprehensive evaluation across various models, the 
 
 ---
 
-<h2 id="how-to-use-workflow">🚀 How to Use This Workflow:</h2>
+<h2 id="how-to-use-workflow"> How to Use This Workflow:</h2>
 
 To explore, understand, and run this project, you will need the **KNIME Analytics Platform** installed on your machine.
 
