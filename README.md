@@ -5,7 +5,7 @@
 [![Machine Learning](https://img.shields.io/badge/Domain-Machine%20Learning-blue)](https://en.wikipedia.org/wiki/Machine_learning)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project presents a comprehensive, end-to-end machine learning workflow developed entirely within the **KNIME Analytics Platform**. The primary objective is to build a robust predictive model for identifying customers at high risk of churning in the telecommunications sector. By leveraging KNIME's visual programming capabilities, this project demonstrates a complete data science pipeline from initial data access and preprocessing to advanced model training, evaluation, and interactive result visualization.
 
@@ -13,7 +13,7 @@ This solution empowers telecom companies to implement proactive retention strate
 
 ---
 
-## 💡 Problem Context & Objectives
+##  Problem Context & Objectives
 
 The telecommunications industry faces significant challenges with customer churn, leading to substantial revenue loss. Retaining existing customers is often more cost-effective than acquiring new ones. This project addresses this critical business need by aiming to:
 
@@ -140,7 +140,7 @@ The core predictive analysis involves training and rigorously evaluating multipl
 
 ---
 
-## 📈 Results & Key Findings
+##  Results & Key Findings
 
 After rigorous training and comprehensive evaluation across various models, the project yielded significant insights:
 
@@ -187,7 +187,7 @@ To explore, understand, and run this project, you will need the **KNIME Analytic
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 * **KNIME Analytics Platform:** The core platform for visual workflow development.
 * **KNIME Extensions:** (e.g., "KNIME Analytics Platform for Data Scientists," "KNIME Machine Learning Extension," "KNIME Interactive Reporting" - *List any specific KNIME extensions that were critical for your project here.*)
